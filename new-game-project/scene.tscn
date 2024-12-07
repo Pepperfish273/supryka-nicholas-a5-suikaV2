@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://buqt8lr7pkfwj"]
+
+[ext_resource type="Script" path="res://addons/2d_shapes/shapes/Ellipse.gd" id="1_5b4li"]
+
+[node name="Scene" type="Node2D"]
+
+[node name="Player" type="Node2D" parent="."]
+
+[node name="Ellipse" type="Node2D" parent="Player"]
+script = ExtResource("1_5b4li")
